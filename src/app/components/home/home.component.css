@@ -1,0 +1,10 @@
+.contentArea{
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(89, 136, 182);
+    #myName {
+        text-align: center;
+        color: rgb(0, 195, 255);
+        margin: 5px;
+    }
+}

@@ -15,10 +15,10 @@
     margin-right: 10px;
     float: right;
     border-radius: 20px;
-    font-family:Georgia, 'Times New Roman';
-    color: rgb(225, 229, 26);
     cursor: pointer;
     transition: 0.5s;
+        font-family:Georgia, 'Times New Roman';
+        color: rgba(226, 229, 26, 0.815);
 }
 .eachNavItem:hover{
     background: rgba(16, 120, 120, 0.604);
@@ -50,11 +50,4 @@
     border-width: 3px;
     border-radius: 10px;
     cursor: pointer;
-}
-.aboutArea{
-    color: rgb(200, 235, 236);
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 40px;
-    border: 1px solid black;
 }

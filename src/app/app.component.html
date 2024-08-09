@@ -1,39 +1,7 @@
 
 <div class="navBar">
-  <div class="eachNavItem" (click)="aboutMe()">About me</div>
-  <div class="eachNavItem" (click)="projects()">Projects</div>
-  <div class="eachNavItem" (click)="home()">Home</div>
+  <div class="eachNavItem" routerLink = '/about'>About Me</div>
+  <div class="eachNavItem" routerLink = '/projects'>Projects</div>
+  <div class="eachNavItem" routerLink = '/home'>Home</div>
 </div>
-    @if(homeSelected == true){
-      <div class="contentArea">
-        <h1 id="myName">ALAN C MATHEW</h1>
-        <div >Web developer | Btech</div>
-      </div>
-      }
-      @if(projectSelected == true ){
-      <div>
-          <div id="pro">College Placement Cell Automation
-            <ul><li>Django</li>
-              <li>sqlite</li></ul>
-          </div>
-      </div>
-      }
-      @if(about == true){
-      <div class="aboutArea"><h3>Hello, I'm Alan C Mathew, a passionate engineer
-         with foundations in html,css,js and ts. 
-         I'm interested in becoming a software 
-         engineer and I enjoy exlporing new technologies.</h3>
-        <div style="margin-top: 30px; color:rgb(159, 209, 24);">Skills</div>
-      <div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-          <li>C </li>
-          <li>Python </li>
-          <li>Java </li>
-        </ul>
-      </div>
-      </div>
-      }
- 
+ <router-outlet></router-outlet>

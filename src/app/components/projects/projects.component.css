@@ -1,0 +1,12 @@
+#pro{
+    color: rgb(200, 235, 236);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(159, 209, 24);
+    border-width: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
